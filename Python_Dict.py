@@ -14,5 +14,9 @@ dict = {}
 
 dict[1] = "ABC"
 dict["abc"] = 2
+dict["age"] = 40
+
 print(dict)
+
+print(dict["age"])
 
