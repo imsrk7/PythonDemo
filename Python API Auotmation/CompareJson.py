@@ -12,3 +12,4 @@ with open ('C:\\Users\\Srk\\PycharmProjects\\PythonDemo\\Python API Auotmation\\
         print("True")
     else:
         print("False")
+    assert data == data1 # This is another method for comparing two JSON
