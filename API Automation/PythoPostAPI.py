@@ -12,7 +12,7 @@ response_json = addBook_response.json()
 print(type(response_json))
 bookId = response_json['ID']  # Stored ID in bookID variable
 
-url_delBook = getConfig()['API']['endpoint']+ APIResources.deleteBook
+url_delBook = getConfig()['API']['endpoint'] + APIResources.deleteBook
 response_deleteBook = requests.post(url_delBook, json={
 
     "ID": bookId

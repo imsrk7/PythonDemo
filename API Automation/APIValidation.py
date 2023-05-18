@@ -2,9 +2,9 @@
 
 import requests
 from Utilities.configurations import *
+from Utilities.resourses import *
 
-
-response = requests.get(getConfig()['API']['endpoint']+'/Library/GetBook.php',
+response = requests.get(getConfig()['API']['endpoint'] + APIResources.getBook,
              params={'AuthorName': 'Rahul Shetty2'},)
 #print(response.text)
 #print(type(response.text))
