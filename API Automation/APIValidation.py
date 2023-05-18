@@ -1,9 +1,10 @@
 # getting book data by author by using HTTP GET Method
 
 import requests
-import json
+from Utilities.configurations import *
 
-response = requests.get('http://216.10.245.166/Library/GetBook.php',
+
+response = requests.get(getConfig()['API']['endpoint']+'/Library/GetBook.php',
              params={'AuthorName': 'Rahul Shetty2'},)
 #print(response.text)
 #print(type(response.text))

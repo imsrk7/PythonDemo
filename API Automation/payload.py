@@ -1,8 +1,8 @@
-def addBookPayload(isbn,aisle):
+def addBookPayload(isbn):
     body = {
         "name": "Python Automation Book",
         "isbn": isbn,
-        "aisle": aisle,
+        "aisle": "1212",
         "author": "John Snow"
     }
     return body
