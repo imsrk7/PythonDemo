@@ -1,5 +1,6 @@
 from Utilities.configurations import *
 
+
 def addBookPayload(isbn):
     body = {
         "name": "Python Automation Book",
@@ -11,7 +12,6 @@ def addBookPayload(isbn):
 
 
 def buildBodyPayloadBD(query):
-
     addBody = {}
     tp = getQuery(query)
     addBody['name'] = tp[0]
