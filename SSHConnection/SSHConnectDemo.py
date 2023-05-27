@@ -33,4 +33,5 @@ stdin, stdout, stderr = ssh.exec_command("python3 script.py")
 
 # Downloading file from server
 sftp.get("loanasa.csv", "C:\\Users\\Srk\\PycharmProjects\\PythonDemo\\batchFile\\OutputFile\\loanasa.csv")
+
 ssh.close()
